@@ -1,9 +1,9 @@
 # Accessing the Build Server
-http://jenkins.cyanogenmod.com/
+http://jenkins.teamoctos.com/
 
 # Authenticating to the Build Server
 You must be a member of the CyanogenMod organization, and your
-membership must be public at https://github.com/CyanogenMod  
+membership must be public at https://github.com/Team-OctOS  
 
 Jenkins will authorize using OAuth to GitHub.
 
@@ -19,11 +19,11 @@ always be labeled as EXPERIMENTAL
 This repository is preconfigured to use the git-review plugin. More information can be found at:
 https://pypi.python.org/pypi/git-review
 
-Edit cm-build-targets and submit a change to gerrit for review. The
+Edit to-build-targets and submit a change to gerrit for review. The
 syntax for that file is documented in its first few lines.
 You can upload your change to gerrit with commands like these:
 
-    git add cm-build-targets
+    git add to-build-targets
     git commit
     git review
 
